@@ -1,4 +1,5 @@
 # Single-cell Breast Cancer Atlas
+[![DOI](https://zenodo.org/badge/362182268.svg)](https://zenodo.org/badge/latestdoi/362182268)
 # A single-cell analysis of breast cancer cell lines to study tumour heterogeneity and drug response
 #### G. Gambardella<sup>1,2+</sup>, G. Viscido<sup>1,2,+</sup>, B. Tumaini<sup>1</sup>, A. Isacchi<sup>3</sup>, R. Bosotti<sup>3</sup>, D. di Bernardo<sup>1,2,++</sup>
 
