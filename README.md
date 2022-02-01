@@ -1,5 +1,7 @@
 # Single-cell Breast Cancer Atlas
 [![DOI](https://zenodo.org/badge/362182268.svg)](https://zenodo.org/badge/latestdoi/362182268)
+On-line single cell <b>BC Atlas available</b> at [http://bcatlas.tigem.it](http://bcatlas.tigem.it)
+
 # A single-cell analysis of breast cancer cell lines to study tumour heterogeneity and drug response
 #### G. Gambardella<sup>1,2+</sup>, G. Viscido<sup>1,2,+</sup>, B. Tumaini<sup>1</sup>, A. Isacchi<sup>3</sup>, R. Bosotti<sup>3</sup>, D. di Bernardo<sup>1,2,++</sup>
 
@@ -11,8 +13,6 @@
 Cancer cells within a tumour have heterogeneous phenotypes and exhibit dynamic plasticity. How to evaluate such heterogeneity and its impact on outcome and drug response is still unclear. Here, we transcriptionally profile 35,276 individual cells from 32 breast cancer cell lines to yield a single cell atlas. We find high degree of heterogeneity in the expression of biomarkers. We then train a deconvolution algorithm on the atlas to determine cell line composition from bulk gene expression profiles of tumour biopsies, thus enabling cell line-based patient stratification. Finally, we link results from large-scale in vitro drug screening in cell lines to the single cell data to computationally predict drug responses starting from single-cell profiles. We find that transcriptional heterogeneity enables cells with differential drug sensitivity to co-exist in the same population. Our work provides a framework to determine tumour heterogeneity in terms of cell line composition and drug response.
 
 The full article [(Gambardella, Viscido et al. 2022)](https://) soon available...
-
-On-line single cell <b>BC Atlas available</b> at [http://bcatlas.tigem.it](http://bcatlas.tigem.it)
 
 ## Figures
 
