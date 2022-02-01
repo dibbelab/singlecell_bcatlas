@@ -3,7 +3,7 @@
 #### G. Gambardella<sup>1,2+</sup>, G. Viscido<sup>1,2,+</sup>, B. Tumaini<sup>1</sup>, A. Isacchi<sup>3</sup>, R. Bosotti<sup>3</sup>, D. di Bernardo<sup>1,2,++</sup>
 
 <sup>1</sup>Telethon Institute of Genetics and Medicine, Armenise/Harvard Laboratory of Integrative Genomics, Pozzuoli, Italy.  
-<sup>2</sup>niversity of Naples Federico II, Department of Chemical, Materials and Industrial Engineering, Naples, Italy.  
+<sup>2</sup>University of Naples Federico II, Department of Chemical, Materials and Industrial Engineering, Naples, Italy.  
 <sup>3</sup>NMSsrl, Nerviano Medical Sciences, 20014, Nerviano, Milan, Italy.  
 
 ## Abstract
