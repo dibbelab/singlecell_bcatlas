@@ -32,12 +32,12 @@ On-line single cell <b>BC Atlas available</b> at [http://bcatlas.tigem.it](http:
 Raw UMI counsts before to be normalized with [GFICF package](https://github.com/dibbelab/gficf) are arevailable on figshare at following DOI [10.6084/m9.figshare.15022698](https://figshare.com/articles/dataset/Single_Cell_Breast_Cancer_cell-line_Atlas/15022698). Specifically raw UMI count matrix of the 35,276 cells is available in two main formats:
 1. R dataset as rds file [RAW.UMI.counts.BC.cell.lines.rds](https://figshare.com/ndownloader/files/28893384)
 2. MatrixMarket format (like cell ranger output)
-  2.1 Matrix file [matrix.mtx.gz](https://figshare.com/ndownloader/files/30469062)
-  2.2 Cell name file file [barcodes.tsv.gz](https://figshare.com/ndownloader/files/30469065)
-  2.3 Gene name file [features.tsv.gz](https://figshare.com/ndownloader/files/30469065)
+    1. Matrix file [matrix.mtx.gz](https://figshare.com/ndownloader/files/30469062)
+    2. Cell name file file [barcodes.tsv.gz](https://figshare.com/ndownloader/files/30469065)
+    3. Gene name file [features.tsv.gz](https://figshare.com/ndownloader/files/30469065)
   
 ## How to dowload Processed data of the Atlas
-Processed data with [GFICF package](https://github.com/dibbelab/gficf) are arevailable on figshare at following DOI [10.6084/m9.figshare.15022698](https://figshare.com/articles/dataset/Single_Cell_Breast_Cancer_cell-line_Atlas/15022698). Specifically you have to download the file 
+Processed data with [GFICF package](https://github.com/dibbelab/gficf) are arevailable on figshare at following DOI [10.6084/m9.figshare.15022698](https://figshare.com/articles/dataset/Single_Cell_Breast_Cancer_cell-line_Atlas/15022698). Specifically you have to download the file [GFICF.processed.counts.gficf](https://figshare.com/ndownloader/files/33943715)
 
 
 ## DREEP predictions
