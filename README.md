@@ -4,7 +4,7 @@
 
 <sup>1</sup>Telethon Institute of Genetics and Medicine, Armenise/Harvard Laboratory of Integrative Genomics, Pozzuoli, Italy.  
 <sup>2</sup>University of Naples Federico II, Department of Chemical, Materials and Industrial Engineering, Naples, Italy.  
-<sup>3</sup>NMSsrl, Nerviano Medical Sciences, 20014, Nerviano, Milan, Italy.  
+<sup>3</sup>NMSsrl, Nerviano Medical Sciences, 20014, Nerviano, Milan, Italy.
 
 ## Abstract
 Cancer cells within a tumour have heterogeneous phenotypes and exhibit dynamic plasticity. How to evaluate such heterogeneity and its impact on outcome and drug response is still unclear. Here, we transcriptionally profile 35,276 individual cells from 32 breast cancer cell lines to yield a single cell atlas. We find high degree of heterogeneity in the expression of biomarkers. We then train a deconvolution algorithm on the atlas to determine cell line composition from bulk gene expression profiles of tumour biopsies, thus enabling cell line-based patient stratification. Finally, we link results from large-scale in vitro drug screening in cell lines to the single cell data to computationally predict drug responses starting from single-cell profiles. We find that transcriptional heterogeneity enables cells with differential drug sensitivity to co-exist in the same population. Our work provides a framework to determine tumour heterogeneity in terms of cell line composition and drug response.
@@ -28,8 +28,19 @@ On-line single cell <b>BC Atlas available</b> at [http://bcatlas.tigem.it](http:
 <b>Figure 3 – Transcriptional heterogeneity in breast cancer cell lines and its impact on drug response.</b> (A) Percentage of cells expressing the indicated genes in each of the 32 cell lines. (B) Fluorescence cytometry of HCC38, MDA-MB-361 and AU565 cell lines stained with a fluorescent antibody against HER2. (C) Expression of HER2 protein in MDA-MB-361  cells is dynamic and re-established in less than 3 weeks. (D) Cell cycle phase for the HER2+ and HER2- subpopulations of MDA-MB-361  cells. p-value refers to the Fisher’s exact test. (E) Enriched pathways (GSEA, FDR<10%) across differentially expressed genes between the HER2+ (orange) and HER2- (blue) MDA-MB-361 cells. (F) Gene expression versus drug potency for four anti-HER2 drugs. Each dot corresponds to a cell line with percentage of cells expressing ERBB2 or EGFR in the cell line [y-axis] versus the experimental drug potency2 as Area Under the Curve (AUC) [x-axis]. PCC (Pearson correlation coefficient) and its p-value are also shown. (G) PCC values  computed as in F for 66 drugs for which the cognate drug targets is known. The  PCC distribution when choosing a random gene is also shown. (H) Bioinformatics pipeline for the identification of drug sensitivity biomarkers for 450 drugs. (I) The top 250 most expressed genes in  a single cell are used as input for a GSEA against the ranked list of genes correlated with drug potency for each one of the 450 drugs to predict its drug sensitivity. (J) Performance of DREEP in predicting drug sensitivity of 32 cell lines in the atlas to 450 drugs in terms of PPV (Positive Predicted Value) versus Recall. (K) Dose-response curve in terms of cell viability following treatment with either afatinib or etoposide at the indicated concentrations on sorted MDA-MB-361  cells (triplicate experiment). (L) Percentage of HER2+ cells in MDA-MB-361  after 72h treatment with either afatinib or etoposide, and (M) cell viability. (N) Percentage of HER2+ cells in MDA-MB-361 cell-line at the indicated time-points either following 48h of afatinib pre-treatment (red bars) or without any afatinib pre-treatment (black bars) and (O) the relative number of cells rescaled for the number of cells at the beginning of the experiment. Source data are provided in a Source data file.
 <hr/>
 
-# DREEP prediction for reviwer
+## How to dowload RAW data of the Atlas
+Raw UMI counsts before to be normalized with [GFICF package](https://github.com/dibbelab/gficf) are arevailable on figshare at following DOI [10.6084/m9.figshare.15022698](https://figshare.com/articles/dataset/Single_Cell_Breast_Cancer_cell-line_Atlas/15022698). Specifically raw UMI count matrix of the 35,276 cells is available in two main formats:
+1. R dataset as rds file [RAW.UMI.counts.BC.cell.lines.rds](https://figshare.com/ndownloader/files/28893384)
+2. MatrixMarket format (like cell ranger output)
+  2.1 Matrix file [matrix.mtx.gz](https://figshare.com/ndownloader/files/30469062)
+  2.2 Cell name file file [barcodes.tsv.gz](https://figshare.com/ndownloader/files/30469065)
+  2.3 Gene name file [features.tsv.gz](https://figshare.com/ndownloader/files/30469065)
+  
+## How to dowload Processed data of the Atlas
+Processed data with [GFICF package](https://github.com/dibbelab/gficf) are arevailable on figshare at following DOI [10.6084/m9.figshare.15022698](https://figshare.com/articles/dataset/Single_Cell_Breast_Cancer_cell-line_Atlas/15022698). Specifically you have to download the file 
 
+
+## DREEP predictions
 First dowload the following two files
 1. Pre-computed top 250 expressed genes in each sequenced cell [topGFICFgenes.rds](https://www.dropbox.com/s/0oucq3dpc7zig30/topGFICFgenes.rds?dl=0)
 2. Gene to Drug IC50 correlation matrix [PCC.Drug.to.Genes.rds](https://www.dropbox.com/s/b4ukgwzb36mzx2b/PCC.Drug.to.Genes.rds?dl=0)
